@@ -1,0 +1,359 @@
+<!-- Full HTML Document with Experience section corrected (before Vuetify-inspired layout) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anshal Anand</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+15+Charted&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #fff;
+      color: #111;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      padding: 4rem 2rem 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-family: 'Jersey 15 Charted', cursive;
+      font-weight: 300;
+      font-size: 2.5rem;
+      margin-bottom: 0.2rem;
+    }
+    h2 {
+      font-weight: 300;
+      font-size: 1.2rem;
+      color: #777;
+    }
+    nav {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    button {
+      background: none;
+      border: 1px solid #ddd;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #eee;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      display: none;
+    }
+    .visible {
+      display: block;
+    }
+    .footer {
+      font-size: 0.8rem;
+      color: #aaa;
+      padding: 2rem;
+    }
+    form input[type="email"] {
+      padding: 0.5rem;
+      font-size: 1rem;
+      width: 70%;
+      border: 1px solid #ccc;
+      margin-right: 1rem;
+    }
+    form button[type="submit"] {
+      padding: 0.5rem 1rem;
+      background: #111;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .timeline {
+      margin: 2rem 0;
+    }
+    .timeline-item {
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 1rem;
+    }
+    .timeline-title {
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    .timeline-title img {
+      height: 20px;
+      margin-right: 10px;
+      filter: grayscale(100%);
+      transition: filter 0.3s ease;
+    }
+    .timeline-title:hover img {
+      filter: none;
+    }
+    .timeline-subtitle {
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 0.25rem;
+    }
+    .timeline-details {
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #444;
+      display: none;
+    }
+    .timeline-details.open {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anshal Anand</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+15+Charted&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #fff;
+      color: #111;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      padding: 4rem 2rem 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-family: 'Jersey 15 Charted', cursive;
+      font-weight: 300;
+      font-size: 2.5rem;
+      margin-bottom: 0.2rem;
+    }
+    h2 {
+      font-weight: 300;
+      font-size: 1.2rem;
+      color: #777;
+    }
+    nav {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    button {
+      background: none;
+      border: 1px solid #ddd;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #eee;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      display: none;
+    }
+    .visible {
+      display: block;
+    }
+    .footer {
+      font-size: 0.8rem;
+      color: #aaa;
+      padding: 2rem;
+    }
+    form input[type="email"] {
+      padding: 0.5rem;
+      font-size: 1rem;
+      width: 70%;
+      border: 1px solid #ccc;
+      margin-right: 1rem;
+    }
+    form button[type="submit"] {
+      padding: 0.5rem 1rem;
+      background: #111;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .timeline {
+      margin: 2rem 0;
+    }
+    .timeline-item {
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 1rem;
+    }
+    .timeline-title {
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    .timeline-title img {
+      height: 20px;
+      margin-right: 10px;
+      filter: grayscale(100%);
+      transition: filter 0.3s ease;
+    }
+    .timeline-title:hover img {
+      filter: none;
+    }
+    .timeline-subtitle {
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 0.25rem;
+    }
+    .timeline-details {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, opacity 0.4s ease;
+      opacity: 0;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #444;
+      margin-top: 0.5rem;
+    }
+    .timeline-details.open {
+      max-height: 500px;
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+<header>
+    <h1>Anshal Anand</h1>
+    <h2>Products, Sustainability, Animal Welfare | Berlin, Germany</h2>
+    <nav>
+      <button onclick="showSection('about')">About</button>
+      <button onclick="showSection('experience')">Experience</button>
+      <button onclick="showSection('philosophy')">Product Philosophy</button>
+      <button onclick="showSection('contact')">Contact</button>
+      <button onclick="showSection('resumeRequest')">Request Resume</button>
+    </nav>
+  </header>
+
+  <section id="about">
+    <p>Experienced Product Manager with deep insights into startups, marketplace models, and sustainable innovation. Passionate about animal psychology and consumer behavior, with a focus on solving real-world problems at scale.</p>
+  </section>
+
+  <section id="experience">
+    <div class="timeline">
+  <div class="timeline-item" onclick="toggleDetails(this)">
+    <div class="timeline-title"><img src="https://logo.clearbit.com/hellofresh.com">HelloFresh, Berlin</div>
+    <div class="timeline-subtitle">Product, Habit Building (Dec 2024 – Present)</div>
+    <div class="timeline-details">Driving behavioural change at scale to enhance retention and growth across HelloFresh’s product portfolio. Spearheading Factor’s loyalty program, improving opt-ins from 10% to 23%. Mentoring PMs on growth, referrals, and engagement initiatives.</div>
+  </div>
+  <div class="timeline-item" onclick="toggleDetails(this)">
+    <div class="timeline-title"><img src="https://logo.clearbit.com/free-now.com">FREENOW, Berlin</div>
+    <div class="timeline-subtitle">Head of Product: Consumer Funnel & Growth (Jul 2021 – Sep 2023)</div>
+    <div class="timeline-details">Built and led Consumer Growth team across 9 EU markets. Launched segmented referrals, fraud checks, VOIP, chat, dynamic search, new service types like Pet and Airport—growing revenue significantly.</div>
+  </div>
+      <div class="timeline-item" onclick="toggleDetails(this)">
+    <div class="timeline-title"><img src="https://logo.clearbit.com/olacabs.com">Ola, Bengaluru</div>
+    <div class="timeline-subtitle">Product Lead: Consumer Growth (Nov 2019 – Jul 2021)</div>
+    <div class="timeline-details">Owned install to first ride funnel, saving $150K+, launched Ola Pass subscription, built feature stores with DS team, ran CLM strategies growing market share across India, ANZ, and UK.</div>
+  </div>
+  <div class="timeline-item" onclick="toggleDetails(this)">
+    <div class="timeline-title"><img src="https://logo.clearbit.com/99.co">99.co, Singapore</div>
+    <div class="timeline-subtitle">Lead Product Manager: Growth (Apr 2019 – Oct 2019)</div>
+    <div class="timeline-details">Ran A/B tests for lead gen, downloads, supply creation; launched agent tools; improved conversion & organic supply by 15%.</div>
+  </div>
+
+  <div class="timeline-item" onclick="toggleDetails(this)">
+    <div class="timeline-title"><img src="https://logo.clearbit.com/zoomcar.com">Zoomcar, Bengaluru</div>
+    <div class="timeline-subtitle">Product Manager: Mobile & Post-Booking Experience (Apr 2017 – Mar 2019)</div>
+    <div class="timeline-details">Led mobile revamp, launched Trip Buddy (cut support calls 30%), built Find My Car, ran large-scale experimentation, launched 'No Fuel' model (60% GMV impact).</div>
+  </div>
+  <div class="timeline-item" onclick="toggleDetails(this)">
+    <div class="timeline-title"><img src="https://logo.clearbit.com/oyorooms.com">OYO, Gurgaon</div>
+    <div class="timeline-subtitle">Product Manager: Supply Apps & Reconciliation (Oct 2014 – Mar 2016)</div>
+    <div class="timeline-details">Built first co-living product, launched Owner App, reduced payout cycle from 30 to 2 days. Grew from PM #1 to scaling core tech foundations of a unicorn.</div>
+  </div>
+</div>
+
+  </section>
+
+  <section id="philosophy">
+    <p><em>"I believe in building products that are not only intuitive and data-driven but also deeply empathetic to the user’s journey. Simplicity, sustainability, and long-term engagement are central to every experience I craft."</em></p>
+    <p>[Placeholder: Add your own guiding principles, frameworks, or decision-making philosophies here.]</p>
+  </section>
+
+  <section id="contact">
+    <p>Email: <a href="mailto:anshalanand@live.com">anshalanand@live.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/anshalanand" target="_blank">linkedin.com/in/anshalanand</a></p>
+    <p>Phone: +91 97423 53668</p>
+    <p>Location: Berlin, Germany</p>
+  </section>
+
+  <section id="resumeRequest">
+    <h3>Request Resume</h3>
+    <p>Enter your email to receive a copy of Anshal's resume directly in your inbox.</p>
+    <form
+  action="https://formspree.io/f/xwpqvbgy"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+    <p id="formMessage"></p>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 Anshal Anand. Minimalist website crafted with HTML, CSS, and JS.
+  </footer>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('section').forEach(section => section.classList.remove('visible'));
+      const target = document.getElementById(id);
+      if (target) target.classList.add('visible');
+    }
+
+    function toggleDetails(el) {
+      const detail = el.querySelector('.timeline-details');
+      detail.classList.toggle('open');
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const form = document.getElementById('resumeForm');
+      if (form) {
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+          const email = document.getElementById('recruiterEmail').value;
+          document.getElementById('formMessage').textContent = `Thank you! The resume will be sent to ${email}.`;
+          form.reset();
+        });
+      }
+    });
+  </script>
+</body>
+</html>
+
+</body>
+</html>
+
